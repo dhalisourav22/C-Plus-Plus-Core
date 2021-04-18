@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1576563638 source:f:\study\experiment\c++\anisul oop\constant object\check.cpp
+	"check.h"
+	<iostream>
+
+1576563638 f:\study\experiment\c++\anisul oop\constant object\check.h
+
+1576563647 source:f:\study\experiment\c++\anisul oop\constant object\main.cpp
+	<iostream>
+	"check.h"
+

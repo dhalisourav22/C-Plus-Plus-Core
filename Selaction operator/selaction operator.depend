@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1576559966 source:f:\study\experiment\c++\anisul oop\selaction operator\main.cpp
+	<iostream>
+	<conio.h>
+	"student.h"
+
+1576560283 f:\study\experiment\c++\anisul oop\selaction operator\student.h
+
+1576559967 source:f:\study\experiment\c++\anisul oop\selaction operator\student.cpp
+	"student.h"
+	<iostream>
+

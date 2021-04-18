@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1576512749 source:f:\study\experiment\c++\anisul oop\destractor\student.cpp
+	"student.h"
+	<iostream>
+
+1576512749 f:\study\experiment\c++\anisul oop\destractor\student.h
+	"student.h"
+
+1576512772 source:f:\study\experiment\c++\anisul oop\destractor\main.cpp
+	<iostream>
+	"student.h"
+
