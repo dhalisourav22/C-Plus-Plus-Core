@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 5, b = 10, temp;
+    //This is single line comment.
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    /*This is
+    Multiple line
+    Comment*/
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\n//This is not a comment.After swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
