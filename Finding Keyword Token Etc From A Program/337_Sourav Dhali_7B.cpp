@@ -27,7 +27,6 @@ int main(){
             cout<<"\n\tLine "<<line<<": "<<p<<endl;
         for(int i=0;i<p.size();i++){   //For traversing latter by latter.
 
-
             ///Comment and String Detaction.
             if(commentFlag){             //For Multiple Line Comment End.
                 if(p.at(i)=='*' && p[i+1]=='/'){
@@ -240,6 +239,7 @@ int main(){
                     cout<<": is an operator\n";
                     token++;
                 }
+                
                 //Symbols Detection.
                 else if(p.at(i)=='.' || p.at(i)==',' || p.at(i)=='#' || p.at(i)=='_' || p.at(i)=='[' || p.at(i)=='{' || p.at(i)=='(' || p.at(i)==')' || p.at(i)=='}' || p.at(i)==']' || p.at(i)=='\\' || p.at(i)==';' || p.at(i)=='\''){
                     specialCharacters.insert(p.at(i));
@@ -270,6 +270,7 @@ int main(){
                 }
             }
         }
+        
         //This whole term is used for avoid the Error which we get to identifiyng last word of a line.
         if(!word.empty()){
             token++;
@@ -292,15 +293,12 @@ int main(){
     for(numberIteration = numbers.begin();numberIteration!=numbers.end();numberIteration++){
         cout<<*numberIteration<<", ";
     }
-
-
     cout<<"\n\t3. Special Characters:\n\t\t";
     for(characterIteration = specialCharacters.begin();characterIteration!=specialCharacters.end();characterIteration++){
         cout<<*characterIteration<<" ";
     }
     cout<<"\n\t4. Total no. of lines is: "<<line;
     cout<<"\n\t5. Total no. of tokens is: "<<token<<endl;
-
-
+    
     return 0;
 }
